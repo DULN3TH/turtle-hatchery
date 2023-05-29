@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* home */
+.logo{
+    width: 190px;
+    height: auto;
+    margin-left: -100px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.home ul li:nth-child(5):hover > .subnav{
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.subnav{
+    opacity: 0;
+    position: absolute;
+    margin-left: 45vw;
+    padding: 20px;
+    display: block;
+    height: 100px;
+}
+.home ul li {
+    display: inline;
+    padding: 20px;   
+}
+
+.home li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease;
+    
+}
+
+.home li a:hover {
+    font-size: 16px;
+    font-weight: 800;
+    
+}
+ /* Kosgoda */
+
+.kos{
+    display: block;
+ }
+.kbody{
+    background-image: url(../images/hatch_img1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.kos h1{
+    font-size: 150px;
+    color: #fff;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 25vh;
+    position: absolute;
+    margin-left: 5vw;
+}
+
+.kos h4{
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 50vh;
+    position: absolute;
+    margin-left: 5vw;
+}
+
+.kos p{
+    font-size: 22px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 65vh;
+    position: absolute;
+    margin-left: 5vw;
+    text-align: justify;
+    width: 32vw;
+}
+
+
+.but1{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: #1E90FF;
+    width: 130px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 65vw;
+    border: transparent;
+}
+
+.but1:hover, .but2:hover{ 
+    box-shadow: 0px 5px 15px #ffffff54;
+}
+
+.but2{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: #1E90FF;
+    width: 130px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 80vw;
+    border: transparent;
+}
+
+.kbody .sct{
+    background-color: #8a8888;
+    position: absolute;
+    width: 500px;
+    height: 75vh;
+    margin-top: 25vh;
+    margin-left: 3vw;
+    opacity: 0.7;
+    transition: all 0.5s ease 0s;
+}
+
+.kbody .sct:hover{
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.5s ease 0s;
+}
+
+.explore img{
+    position: absolute;
+    margin-top: 100vh;
+    width: 100%;
+    height: 100vh;
+}
+
+.explore p{
+    position: absolute;
+    margin-top: 125vh;
+    margin-left: 33vw;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    width: 500px;
+}
+
+#xplor{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin-top: 115vh;
+    width: 50vw;
+    height: 60vh;
+    margin-left: 27vw;
+}
+
+#xplo{
+    margin-top: 100vh;
+    position: absolute;
+}
+
+.explore .but3{
+    position: absolute;
+    padding: 15px;
+    margin-top: 165vh;
+    margin-left: 47vw;
+    border: transparent;
+    border-radius: 360px;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.explore .but3:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.wwd{
+    background-image: url(../images/grad3.jpg);
+    margin-top: 200vh;
+    position: absolute;
+    width: 100vw;
+    background-position: center;
+    height: 100vh;
+}
+.wwd h1{
+    position: absolute;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-left: 14vw;
+    font-size: 60px;
+    color: #000000;
+    margin-top: 20vh;
+}
+
+.wwd p{
+    position: absolute;
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 14vw;
+    font-size: 20px;
+    color: #000000;
+    width: 30vw;
+    text-align: justify;
+    margin-top: 40vh;
+}
+
+.wwd img{
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 54vw;
+    border-radius: 10px;
+    height: 90vh;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.wwd button{
+    padding: 15px;
+    position: absolute;
+    margin-left: 20vw;
+    /* background-color: #1CA8A0; */
+    background-image: linear-gradient(270deg, #34E77E, #149F8D 70%);
+    border: transparent;
+    border-radius: 25px;
+    width: 140px;
+    color: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    margin-top: 70vh;
+}
+
+.wwd button:hover{
+    background-color: #45E0C3;
+    cursor: pointer;
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    color: #000000;
+    background-image: linear-gradient(270deg, #149F8D, #34E77E 70%);
+}

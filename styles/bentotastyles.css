@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* home */
+.logo{
+    width: 190px;
+    height: auto;
+    margin-left: -100px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.home ul li:nth-child(5):hover > .subnav{
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.subnav{
+    opacity: 0;
+    position: absolute;
+    margin-left: 45vw;
+    padding: 20px;
+    display: block;
+    height: 100px;
+}
+.home ul li {
+    display: inline;
+    padding: 20px;   
+}
+
+.home li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease;
+    
+}
+
+.home li a:hover {
+    font-size: 16px;
+    font-weight: 800;
+    
+}
+
+/* Bentota style */
+
+.bbody{
+    background-image: url(../images/bentotabg.jpg);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.ben h1{
+    font-size: 130px;
+    color: #fff;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 15vh;
+    position: absolute;
+    margin-left: 35vw;
+}
+
+.ben h4{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 38vh;
+    margin-left: 38vw;
+    position: absolute;
+}
+
+.ben p{
+    font-size: 22px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 55vh;
+    position: absolute;
+    margin-left: 31vw;
+    text-align: justify;
+    width: 30vw;
+    padding: 20px 10px 10px 10px;
+}
+
+.ben #sct{
+    background-color: #8a8888;
+    position: absolute;
+    width: 450px;
+    height:85vh;
+    margin-top: 13vh;
+    margin-left: 31vw;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.ben .but1{
+    position: absolute;
+    background-color: transparent;
+    padding: 15px;
+    margin-top: 85vh;
+    margin-left: 35vw;
+    border: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ben .but1:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+}
+
+.ben .but2{
+    position: absolute;
+    background-color: transparent;
+    padding: 15px;
+    margin-top: 85vh;
+    margin-left: 48vw;
+    border: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ben .but2:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+}
+
+
+.explore img{
+    position: absolute;
+    margin-top: 99vh;
+    width: 100%;
+    height: 100vh;
+}
+    
+.explore p{
+    position: absolute;
+    margin-top: 130vh;
+    margin-left: 5vw;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    width: 400px;
+}
+
+#xplo{
+    margin-top: 100vh;
+    position: absolute;
+}
+#xplor{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin-top: 115vh;
+    width: 40vw;
+    height: 80vh;
+}
+
+.explore .but3{
+    position: absolute;
+    padding: 15px;
+    margin-top: 175vh;
+    margin-left: 15vw;
+    border: transparent;
+    border-radius: 360px;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+.explore .but3:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    transition: all 0.3s;
+    box-shadow: 5px 5px 10px 10px rgb(0, 0, 0,.5);
+}
+
+.wwd .cont1{
+    position: absolute;
+    background-image: url(../images/grad1.png);
+    height: 100vh;
+    width: 49vw;
+    margin-top: 193vh;
+    margin-left: 50vw;
+}
+
+.wwd .cont2{
+    position: absolute;
+    background-image: url(../images/grad2.png);
+    height: 100vh;
+    width: 50vw;
+    margin-top: 193vh;
+}
+.wwd h1{
+    position: absolute;
+    margin-top: 210vh;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-left: 54vw;
+    font-size: 60px;
+    color: #fff;
+}
+
+.wwd p{
+    position: absolute;
+    margin-top: 230vh;
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 54vw;
+    font-size: 20px;
+    color: #fff;
+    width: 30vw;
+    text-align: justify;
+}
+
+.wwd img{
+    position: absolute;
+    margin-top: 200vh;
+    margin-left: 14vw;
+    border-radius: 10px;
+    height: 90vh;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.wwd button{
+    padding: 15px;
+    position: absolute;
+    margin-top: 260vh;
+    margin-left: 60vw;
+    background-image: linear-gradient(270deg, #07f49e, #0974f1 70%);
+    border: transparent;
+    border-radius: 25px;
+    width: 140px;
+    color: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.wwd button:hover{
+    background-color: #45E0C3;
+    cursor: pointer;
+    box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    background-image: linear-gradient(270deg, #0974f1, #07f49e 70%);
+    color: black;
+}
+
+@media (max-width: 450px){
+    .home{
+        visibility: hidden;
+    }
+    .bbody{
+        object-fit: cover;
+        width: 100%;
+        height: 233px;
+    }
+    .ben h1{
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        margin-left: 7vw;
+        margin-top: 7vh;
+    }
+    .ben h4{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+        margin-top: 11vh;
+        margin-left: 7vw;
+    }
+    .ben p{
+        font-size: 10px;
+        margin-top: 12vh;
+        width: 180px;
+    }
+    .ben #sct{
+        height: 25vh;
+        width: 45vw;
+        margin-top: 6vh;
+    }
+    .ben .but1{
+        margin-top: 33vh;
+        padding: 5px;
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+    .ben .but2{
+        margin-top: 33vh;
+        padding: 5px;
+        font-size: 10px;
+        letter-spacing: 0px;
+        margin-left: 55vw;
+    }
+    .explore img{
+        object-fit: cover;
+        width: 100%;
+        height: 258px;
+        margin-top: 38vh;
+    }
+    .explore p{
+        margin-top: 65vh;
+        font-size: 10px;
+    }
+    #xplor{
+        margin-top: 61vh;
+        height: 25vh;
+        width: 100vw;
+    }
+    
+    .explore .but3{
+        padding: 5px;
+        margin-top: 80vh;
+        font-size: 5px;
+        margin-left: 5vw;
+    }
+    .wwd .cont1{
+        margin-top: 86vh;
+        margin-left: 51vw;
+        height: 75vw;
+    }
+    .wwd .cont2{
+        margin-top: 86vh;
+        width: 52vw;
+        height: 75vw;
+    }
+    .wwd img{
+        margin-top: 90vh;
+        height: 50vh;
+        margin-left: 5vw;
+    }
+    .wwd p{
+        margin-top: 100vh;
+        font-size: 10px;
+        width: 40vw;
+    }
+    .wwd button{
+        padding: 5px;
+        margin-top: 120vh;
+        font-size: 10px;
+        width: 70px;
+    }
+}
